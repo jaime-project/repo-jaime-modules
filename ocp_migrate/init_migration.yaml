@@ -1,0 +1,22 @@
+clusters:
+  from:
+    name: <str | nombre del cluster origen>
+  to:
+    name: <str | nombre del cluster destino>
+repo: <str | nombre del repo donde estan los scripts de migracion>
+url_public_registry: <str | url de la registry publica del cluster para armar la url final y hacer el pull>
+
+#############################
+
+# v1.0.0
+
+# inicia el proceso de migracion usando los siguientes scripts:
+
+# migrate_namespaces
+# migrate_builds
+# migrate_images
+# migrate_networking
+# migrate_user_management
+# migrate_cluster_roles
+# migrate_pv_pvc
+# migrate_workloads

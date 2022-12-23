@@ -1,0 +1,9 @@
+clusters:
+  from:
+    name: <str | nombre del cluster>
+    namespaces: <list[str] | opcional | nombre de los namespaces>
+    object: <str | nombre del objeto, ejemplo [svc, pod, bc, dc, secret, etc]>
+    only: <list[str] | opcional | lista de regular expresion>
+    ignore: <list[str] | opcional | lista de regular expresion>
+  to:
+    name: <str | nombre del cluster>

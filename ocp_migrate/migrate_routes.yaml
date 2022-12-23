@@ -1,0 +1,10 @@
+clusters:
+  from:
+    name: <str | nombre del cluster>
+    namespaces: <list[str] | opcional |nombre del namespaces>
+    only: <list[str] | opcional | lista de regular expresion>
+    ignore: <list[str] | opcional | lista de regular expresion>
+    host_replace_from: <str | wildcard anterior>
+  to:
+    name: <str | nombre del cluster>
+    host_replace_to: <str | wildcard del nuevo cluster>

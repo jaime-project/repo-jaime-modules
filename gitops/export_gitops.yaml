@@ -1,0 +1,10 @@
+cluster_name: <str | nombre del cluster>
+namespaces: <List[str] | lista de namespaces para buscar>
+
+labels: 
+  key: value
+  key2: value2
+
+exclude:
+  configmap: false
+  secret: false

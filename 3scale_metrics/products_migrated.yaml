@@ -1,0 +1,20 @@
+namespace: 3scale
+cluster: rp
+pushgateway-url: url-pushgateway
+
+groups: 
+  - name: migrate
+    labels:
+      migrate: 'True'
+        
+            
+# ---------------------------------------------------------
+# DOCUMENTACION
+# ---------------------------------------------------------
+
+# namespace: nombre del namespace donde esta 3scale
+# cluster: nombre del cluster configurado en Jaime
+# pushgateway-url: url del pushgateway desplegado en el cluster
+
+# groups: lista de diccionarios para hacer grupos para mostrar los datos, se muestran aquellos que tengan esos labels
+# bajo el nombre del grupo que se ingreso, este nombre es puesto a gusto

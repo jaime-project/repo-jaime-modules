@@ -1,0 +1,18 @@
+namespace: 3scale
+cluster: rp
+pushgateway-url: url-pushgateway
+
+tenants:
+    - name: nombre
+      url: url
+      token: token
+
+
+# ---------------------------------------------------------
+# DOCUMENTACION
+# ---------------------------------------------------------
+
+# namespace: nombre del namespace donde esta 3scale
+# cluster: nombre del cluster configurado en Jaime
+# pushgateway-url: url del pushgateway desplegado en el cluster
+# tenants: lista de diccionarios de los accesos a los tenants

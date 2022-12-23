@@ -1,0 +1,4 @@
+cluster_name: <str | nombre del cluster>
+
+### 
+# Genera un reporte CSV con los proyectos y la cantidad de objetos que tiene cada uno

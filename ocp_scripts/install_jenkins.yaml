@@ -1,0 +1,16 @@
+cluster:
+  name: <str | nombre del cluster>
+  namespace: jenkins
+jenkins:
+  image:
+    url: registry.redhat.io/openshift4/ose-jenkins
+    tag: 4.10.0
+  imageStream:
+    namespace: jenkins
+    name: ose-jenkins
+    tag: 4.10.0
+  config:
+    template: jenkins-persistent
+    memoryRAM: <str | RAM ejemplo 4Gi>
+    memoryVolume: <str | disco ejemplo 4Gi>
+    storageClass: <str | ejemplo thin>

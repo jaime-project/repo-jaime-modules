@@ -1,0 +1,8 @@
+clusters:
+  from:
+    name: <str | nombre del cluster origen>
+    host_replace_from: <str | wildcard anterior>
+  to:
+    name: <str | nombre del cluster destino>
+    host_replace_to: <str | wildcard del nuevo cluster>
+repo: <str | nombre del repo donde estan los scripts de migracion>

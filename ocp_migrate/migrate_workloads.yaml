@@ -1,0 +1,22 @@
+clusters:
+  from:
+    name: <str | nombre del cluster origen>
+  to:
+    name: <str | nombre del cluster destino>
+repo: <str | nombre del repo donde estan los scripts de migracion>
+
+
+#####################################
+
+# Migra los workloads de los namespaces que se envian por parametro
+
+# La lista de objetos es la siguiente:
+#   deployments
+#   deploymentconfigs
+#   statefulsets
+#   secrets
+#   configmaps
+#   cronjobs
+#   jobs
+#   DaemonSets
+#   HorizontalPodAutoscaler

@@ -1,0 +1,28 @@
+namespace: 3scale
+cluster: rp
+pushgateway-url: url-pushgateway
+
+labels:
+  migrade: 'True'
+
+label-team-name: nombre_equipo
+
+teams: 
+  - 'dev'
+  - 'cicd'
+  - 'devops'
+
+
+# ---------------------------------------------------------
+# DOCUMENTACION
+# ---------------------------------------------------------
+
+# namespace: nombre del namespace donde esta 3scale
+# cluster: nombre del cluster configurado en Jaime
+# pushgateway-url: url del pushgateway desplegado en el cluster
+
+# labels: diccionario con el valor de los labels que se filtran, apareceran solo los que tengan esos labels
+
+# label-team-name: nombre del label que contiene el nombre del equipo por el que se va a agrupar
+
+# teams: lista de str con los nombres de los equipos que figuran en el label-team-name que se desea que aparezcan en la busqueda

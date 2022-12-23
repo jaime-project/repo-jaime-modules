@@ -1,0 +1,20 @@
+clusters:
+  from:
+    name: <str | nombre del cluster>
+    only: <list[str] | opcional | lista de regular expresion>
+    ignore: <list[str] | opcional | lista de regular expresion>
+  to:
+    name: <str | nombre del cluster>
+
+
+####################################################333
+# lo normal es usar lo siguiente
+
+clusters:
+  from:
+    name: <str | nombre del cluster>
+    ignore: 
+      - kube-
+      - openshift-
+  to:
+    name: <str | nombre del cluster>

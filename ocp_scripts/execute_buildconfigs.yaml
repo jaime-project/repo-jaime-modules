@@ -1,0 +1,8 @@
+lot:
+    size: <int | tamaño de cada lote>
+    wait_time_seconds: <float | tiempo de espera en segundos entre lotes>
+clusters:
+    name: <str | nombre del cluster>
+    namespaces: <list[str] | opcional | nombre de los namespaces, en casco de ser nulo toma todos menos los del cluster>
+    only: <list[str] | opcional | lista de expresiones regulares para tomar solo los bc que cumplan>
+    ignore: <list[str] | opcional | lista de expresiones regulares para tomar solo los bc que NO cumplan>

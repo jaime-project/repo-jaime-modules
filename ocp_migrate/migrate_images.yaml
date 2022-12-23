@@ -1,0 +1,12 @@
+clusters:
+  from:
+    name: <str | nombre del cluster origen>
+    namespaces: <list[str] | opcional | namespaces a migrar>
+    url_public_registry: <str | url de la registry publica del cluster para armar la url final y hacer el pull>
+  to:
+    name: <str | nombre del cluster destino>
+
+
+#####################################
+
+# Migra las imagenes dentro de los imagestream del cluster usando el comando "oc import-image ..."
