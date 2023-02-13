@@ -1,0 +1,5 @@
+cluster_name: cluster
+namespaces: [] # en caso de ser null usa todos los namespaces
+phases: 
+  - Succeeded 
+  - Failed

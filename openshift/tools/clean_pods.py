@@ -11,14 +11,12 @@ if not tools.login_openshift(cluster):
     tools.log.info(f'Error en login {cluster}')
     exit(1)
 
-tools.sh('mkdir yamls')
-
 
 if not namespaces_list:
     namespaces_list = [
         np
         for np in tools.sh(f'oc get project -o custom-columns=NAME:.metadata.name').split('\n')[1:]
-        if not 'openshift-' in np
+        if not 'openshift-' in np and not 'kube-' in np
     ]
 
 

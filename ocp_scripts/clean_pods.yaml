@@ -1,3 +1,0 @@
-cluster_name: <str | nombre del cluster>
-namespaces: <List[str] | opcional | lista de namespaces, en caso de ser null busca en todos los namespaces excepto los de openshift>
-phases: <List[str] | fases de pods para borrar, puede ser Failed o Succeeded>

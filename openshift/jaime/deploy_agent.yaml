@@ -1,0 +1,9 @@
+cluster_name: cluster
+namespace: jaime
+image: imagen
+
+# Despliega una imagen de agente de Jaime como un statefulset
+
+# cluster_name: nombre del cluster
+# namespace: nombre del namespace
+# image: ruta a la imagen a deplegar, puede ser de docker u otro lado

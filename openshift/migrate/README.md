@@ -2,6 +2,10 @@
 
 Usa diferentes scripts para migrar un cluster, lo unico que no migra son los operators, crd y el contenido de los pvs
 
+## Agentes necesarios
+
+- OPENSHIFT
+
 ## Script inicial
 
 - init_migration
